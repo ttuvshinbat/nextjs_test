@@ -4,8 +4,10 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Example from './canvas';
 
 function NavScrollExample() {
+
     return (
         <Navbar bg="light" expand="lg">
             <Container fluid>
@@ -30,6 +32,7 @@ function NavScrollExample() {
                             aria-label="Search"
                         />
                         <Button variant="outline-success">Search</Button>
+                        <Example />
                     </Form>
                 </Navbar.Collapse>
             </Container>

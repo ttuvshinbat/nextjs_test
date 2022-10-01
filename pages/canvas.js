@@ -2,13 +2,14 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
-function Example(props) {
+function Example() {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
-    console.log(props)
-    props.canvasOn
+    const handleShow = () => {
+        setShow(true);
+    }
+
 
     return (
         <>
