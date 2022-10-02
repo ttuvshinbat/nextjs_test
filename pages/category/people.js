@@ -45,7 +45,7 @@ const People = () => {
 
 
                 <div className="flex  ">
-                    {people1.map((data) => {
+                    {people2.map((data) => {
                         return (
                             <div key={data.id} className="flex-wrap self-auto border-double border-4 border-indigo-500 p-1 m-1  rounded-lg h-auto min-width: max-content;box-content grow will-change-auto  ">
                                 <ul className="  " >

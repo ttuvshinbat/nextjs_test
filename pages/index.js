@@ -3,9 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Calculate from "./calculate"
 import NavScrollExample from "./navbar"
-import { Button } from "react-bootstrap"
-import { useState } from 'react'
-import Example from './canvas'
+import pic2 from "../public/IMG_3307.jpg"
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -33,6 +31,7 @@ export default function Home() {
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>
             <p>Find in-depth information about Next.js features and API.</p>
+            <Image src={pic2} width="150px" height="150px" alt="" />
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
